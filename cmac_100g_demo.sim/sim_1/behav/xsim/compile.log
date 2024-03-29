@@ -1,0 +1,48 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/ip_0/sim/gtwizard_ultrascale_v1_7_gtye4_channel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_7_6_gtye4_channel
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/ip_0/sim/cmac_usplus_0_gt_gtye4_channel_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0_gt_gtye4_channel_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/ip_0/sim/gtwizard_ultrascale_v1_7_gtye4_common.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gtwizard_ultrascale_v1_7_6_gtye4_common
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/ip_0/sim/cmac_usplus_0_gt_gtye4_common_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0_gt_gtye4_common_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/ip_0/sim/cmac_usplus_0_gt_gtwizard_gtye4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0_gt_gtwizard_gtye4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/ip_0/sim/cmac_usplus_0_gt_gtwizard_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0_gt_gtwizard_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/ip_0/sim/cmac_usplus_0_gt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0_gt
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/cmac_usplus_v2_6_0/cmac_usplus_0_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0_wrapper
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0_cdc_sync
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0_tx_sync
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0_rx_64bit_sync
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0_rx_32bit_sync
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0_rx_16bit_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/cmac_usplus_v2_6_0/cmac_usplus_0_ultrascale_tx_userclk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0_ultrascale_tx_userclk
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/cmac_usplus_v2_6_0/cmac_usplus_0_ultrascale_rx_userclk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0_ultrascale_rx_userclk
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/cmac_usplus_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/cmac_usplus_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/cmac_usplus_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/imports/cmac_usplus_0_demo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0_demo
+INFO: [VRFC 10-2458] undeclared symbol locked, assumed default net type wire [E:/prj_2024/3p_100g/cmac_usplus_0_demo/imports/cmac_usplus_0_demo.v:118]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/imports/cmac_usplus_0_exdes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0_exdes
+INFO: [VRFC 10-2458] undeclared symbol locked, assumed default net type wire [E:/prj_2024/3p_100g/cmac_usplus_0_demo/imports/cmac_usplus_0_exdes.v:118]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/imports/cmac_usplus_0_lbus_pkt_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0_lbus_pkt_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/imports/cmac_usplus_0_lbus_pkt_mon.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0_lbus_pkt_mon
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/imports/cmac_usplus_0_pkt_gen_mon.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0_pkt_gen_mon
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/imports/loop_buf.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module loop_buf
+INFO: [VRFC 10-2458] undeclared symbol tx_axis_tvalid, assumed default net type wire [E:/prj_2024/3p_100g/cmac_usplus_0_demo/imports/loop_buf.v:160]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/prj_2024/3p_100g/cmac_usplus_0_demo/imports/cmac_usplus_0_exdes_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmac_usplus_0_exdes_tb

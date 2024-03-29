@@ -1,0 +1,14 @@
+Vivado Simulator 2019.1
+Time resolution is 1 fs
+Warning: [Unisim MMCME4_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance cmac_usplus_0_exdes_tb.u_cmac_slave.u_clk_wiz_0.inst.mmcme4_adv_inst 
+Warning: [Unisim MMCME4_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance cmac_usplus_0_exdes_tb.u_cmac_master.u_clk_wiz_0.inst.mmcme4_adv_inst 
+INFO : SYS_RESET RELEASED TO CMAC IP
+INFO : WAITING FOR THE GT LOCK..........
+INFO : GT LOCKED
+           Core_Version  =  2.6
+INFO : WAITING FOR CMAC RX_ALIGNED..........
+INFO : RX-ALIGNED
+INFO : Packet Generator and Monitor (SANITY Testing) STARTED
+           Number of data packets to be transmitted   =        1000, each of packet size  =         522Bytes, Total bytes: PKT_NUM * (PKT_SIZE + 4[CRC])  =      526000Bytes
+           Number of pause packets to be transmitted  =          11, each of packet size  =          64Bytes, Total bytes: 11 * 64                        =         704Bytes
+INFO : ALL PACKETS SENT, NO ERRORS

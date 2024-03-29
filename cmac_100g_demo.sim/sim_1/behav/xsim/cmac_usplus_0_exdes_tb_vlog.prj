@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../cmac_usplus_0_ex.srcs/sources_1/ip/vio_0/hdl" --include "../../../../cmac_usplus_0_ex.srcs/sources_1/ip/clk_wiz_0" \
+"../../../../cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/ip_0/sim/gtwizard_ultrascale_v1_7_gtye4_channel.v" \
+"../../../../cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/ip_0/sim/cmac_usplus_0_gt_gtye4_channel_wrapper.v" \
+"../../../../cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/ip_0/sim/gtwizard_ultrascale_v1_7_gtye4_common.v" \
+"../../../../cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/ip_0/sim/cmac_usplus_0_gt_gtye4_common_wrapper.v" \
+"../../../../cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/ip_0/sim/cmac_usplus_0_gt_gtwizard_gtye4.v" \
+"../../../../cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/ip_0/sim/cmac_usplus_0_gt_gtwizard_top.v" \
+"../../../../cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/ip_0/sim/cmac_usplus_0_gt.v" \
+"../../../../cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/cmac_usplus_v2_6_0/cmac_usplus_0_wrapper.v" \
+"../../../../cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/cmac_usplus_v2_6_0/cmac_usplus_0_ultrascale_tx_userclk.v" \
+"../../../../cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/cmac_usplus_v2_6_0/cmac_usplus_0_ultrascale_rx_userclk.v" \
+"../../../../cmac_usplus_0_ex.srcs/sources_1/ip/cmac_usplus_0/cmac_usplus_0.v" \
+"../../../../cmac_usplus_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../cmac_usplus_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../imports/cmac_usplus_0_demo.v" \
+"../../../../imports/cmac_usplus_0_exdes.v" \
+"../../../../imports/cmac_usplus_0_lbus_pkt_gen.v" \
+"../../../../imports/cmac_usplus_0_lbus_pkt_mon.v" \
+"../../../../imports/cmac_usplus_0_pkt_gen_mon.v" \
+"../../../../imports/loop_buf.v" \
+"../../../../imports/cmac_usplus_0_exdes_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
