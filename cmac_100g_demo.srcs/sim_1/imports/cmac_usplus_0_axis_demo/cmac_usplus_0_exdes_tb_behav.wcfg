@@ -1,0 +1,2270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cmac_usplus_0_exdes_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cmac_usplus_0_exdes_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1679834203455fs"></ZoomStartTime>
+      <ZoomEndTime time="1709984203456fs"></ZoomEndTime>
+      <Cursor1Time time="1685934203455fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="189"></NameColumnWidth>
+      <ValueColumnWidth column_width="239"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="561" />
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/init_clk" type="logic">
+      <obj_property name="ElementShortName">init_clk</obj_property>
+      <obj_property name="ObjectShortName">init_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/gt_ref_clk_p" type="logic">
+      <obj_property name="ElementShortName">gt_ref_clk_p</obj_property>
+      <obj_property name="ObjectShortName">gt_ref_clk_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/gt_ref_clk_n" type="logic">
+      <obj_property name="ElementShortName">gt_ref_clk_n</obj_property>
+      <obj_property name="ObjectShortName">gt_ref_clk_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/sys_reset" type="logic">
+      <obj_property name="ElementShortName">sys_reset</obj_property>
+      <obj_property name="ObjectShortName">sys_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/send_continuous_pkts" type="logic">
+      <obj_property name="ElementShortName">send_continuous_pkts</obj_property>
+      <obj_property name="ObjectShortName">send_continuous_pkts</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/test_fail" type="logic">
+      <obj_property name="ElementShortName">test_fail</obj_property>
+      <obj_property name="ObjectShortName">test_fail</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/timed_out" type="logic">
+      <obj_property name="ElementShortName">timed_out</obj_property>
+      <obj_property name="ObjectShortName">timed_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/time_out_cntr_en" type="logic">
+      <obj_property name="ElementShortName">time_out_cntr_en</obj_property>
+      <obj_property name="ObjectShortName">time_out_cntr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/time_out_cntr" type="array">
+      <obj_property name="ElementShortName">time_out_cntr[23:0]</obj_property>
+      <obj_property name="ObjectShortName">time_out_cntr[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/lbus_tx_rx_restart_in" type="logic">
+      <obj_property name="ElementShortName">lbus_tx_rx_restart_in</obj_property>
+      <obj_property name="ObjectShortName">lbus_tx_rx_restart_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/OPERATION" type="array">
+      <obj_property name="ElementShortName">OPERATION[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OPERATION[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/tx_done_led" type="logic">
+      <obj_property name="ElementShortName">tx_done_led</obj_property>
+      <obj_property name="ObjectShortName">tx_done_led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/tx_busy_led" type="logic">
+      <obj_property name="ElementShortName">tx_busy_led</obj_property>
+      <obj_property name="ObjectShortName">tx_busy_led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/rx_gt_locked_led" type="logic">
+      <obj_property name="ElementShortName">rx_gt_locked_led</obj_property>
+      <obj_property name="ObjectShortName">rx_gt_locked_led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/rx_aligned_led" type="logic">
+      <obj_property name="ElementShortName">rx_aligned_led</obj_property>
+      <obj_property name="ObjectShortName">rx_aligned_led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/rx_done_led" type="logic">
+      <obj_property name="ElementShortName">rx_done_led</obj_property>
+      <obj_property name="ObjectShortName">rx_done_led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/rx_data_fail_led" type="logic">
+      <obj_property name="ElementShortName">rx_data_fail_led</obj_property>
+      <obj_property name="ObjectShortName">rx_data_fail_led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/rx_busy_led" type="logic">
+      <obj_property name="ElementShortName">rx_busy_led</obj_property>
+      <obj_property name="ObjectShortName">rx_busy_led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/stat_rx_aligned" type="logic">
+      <obj_property name="ElementShortName">stat_rx_aligned</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_aligned</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_datain0" type="array">
+      <obj_property name="ElementShortName">tx_datain0[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_datain0[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_enain0" type="logic">
+      <obj_property name="ElementShortName">tx_enain0</obj_property>
+      <obj_property name="ObjectShortName">tx_enain0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_sopin0" type="logic">
+      <obj_property name="ElementShortName">tx_sopin0</obj_property>
+      <obj_property name="ObjectShortName">tx_sopin0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_eopin0" type="logic">
+      <obj_property name="ElementShortName">tx_eopin0</obj_property>
+      <obj_property name="ObjectShortName">tx_eopin0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_errin0" type="logic">
+      <obj_property name="ElementShortName">tx_errin0</obj_property>
+      <obj_property name="ObjectShortName">tx_errin0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_mtyin0" type="array">
+      <obj_property name="ElementShortName">tx_mtyin0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mtyin0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_datain1" type="array">
+      <obj_property name="ElementShortName">tx_datain1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_datain1[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_enain1" type="logic">
+      <obj_property name="ElementShortName">tx_enain1</obj_property>
+      <obj_property name="ObjectShortName">tx_enain1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_sopin1" type="logic">
+      <obj_property name="ElementShortName">tx_sopin1</obj_property>
+      <obj_property name="ObjectShortName">tx_sopin1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_eopin1" type="logic">
+      <obj_property name="ElementShortName">tx_eopin1</obj_property>
+      <obj_property name="ObjectShortName">tx_eopin1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_errin1" type="logic">
+      <obj_property name="ElementShortName">tx_errin1</obj_property>
+      <obj_property name="ObjectShortName">tx_errin1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_mtyin1" type="array">
+      <obj_property name="ElementShortName">tx_mtyin1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mtyin1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_datain2" type="array">
+      <obj_property name="ElementShortName">tx_datain2[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_datain2[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_enain2" type="logic">
+      <obj_property name="ElementShortName">tx_enain2</obj_property>
+      <obj_property name="ObjectShortName">tx_enain2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_sopin2" type="logic">
+      <obj_property name="ElementShortName">tx_sopin2</obj_property>
+      <obj_property name="ObjectShortName">tx_sopin2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_eopin2" type="logic">
+      <obj_property name="ElementShortName">tx_eopin2</obj_property>
+      <obj_property name="ObjectShortName">tx_eopin2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_errin2" type="logic">
+      <obj_property name="ElementShortName">tx_errin2</obj_property>
+      <obj_property name="ObjectShortName">tx_errin2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_mtyin2" type="array">
+      <obj_property name="ElementShortName">tx_mtyin2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mtyin2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_datain3" type="array">
+      <obj_property name="ElementShortName">tx_datain3[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_datain3[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_enain3" type="logic">
+      <obj_property name="ElementShortName">tx_enain3</obj_property>
+      <obj_property name="ObjectShortName">tx_enain3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_sopin3" type="logic">
+      <obj_property name="ElementShortName">tx_sopin3</obj_property>
+      <obj_property name="ObjectShortName">tx_sopin3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_eopin3" type="logic">
+      <obj_property name="ElementShortName">tx_eopin3</obj_property>
+      <obj_property name="ObjectShortName">tx_eopin3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_errin3" type="logic">
+      <obj_property name="ElementShortName">tx_errin3</obj_property>
+      <obj_property name="ObjectShortName">tx_errin3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_mtyin3" type="array">
+      <obj_property name="ElementShortName">tx_mtyin3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mtyin3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_dataout0" type="array">
+      <obj_property name="ElementShortName">rx_dataout0[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dataout0[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_enaout0" type="logic">
+      <obj_property name="ElementShortName">rx_enaout0</obj_property>
+      <obj_property name="ObjectShortName">rx_enaout0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_sopout0" type="logic">
+      <obj_property name="ElementShortName">rx_sopout0</obj_property>
+      <obj_property name="ObjectShortName">rx_sopout0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_eopout0" type="logic">
+      <obj_property name="ElementShortName">rx_eopout0</obj_property>
+      <obj_property name="ObjectShortName">rx_eopout0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_errout0" type="logic">
+      <obj_property name="ElementShortName">rx_errout0</obj_property>
+      <obj_property name="ObjectShortName">rx_errout0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_mtyout0" type="array">
+      <obj_property name="ElementShortName">rx_mtyout0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mtyout0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_dataout1" type="array">
+      <obj_property name="ElementShortName">rx_dataout1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dataout1[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_enaout1" type="logic">
+      <obj_property name="ElementShortName">rx_enaout1</obj_property>
+      <obj_property name="ObjectShortName">rx_enaout1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_sopout1" type="logic">
+      <obj_property name="ElementShortName">rx_sopout1</obj_property>
+      <obj_property name="ObjectShortName">rx_sopout1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_eopout1" type="logic">
+      <obj_property name="ElementShortName">rx_eopout1</obj_property>
+      <obj_property name="ObjectShortName">rx_eopout1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_errout1" type="logic">
+      <obj_property name="ElementShortName">rx_errout1</obj_property>
+      <obj_property name="ObjectShortName">rx_errout1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_mtyout1" type="array">
+      <obj_property name="ElementShortName">rx_mtyout1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mtyout1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_dataout2" type="array">
+      <obj_property name="ElementShortName">rx_dataout2[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dataout2[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_enaout2" type="logic">
+      <obj_property name="ElementShortName">rx_enaout2</obj_property>
+      <obj_property name="ObjectShortName">rx_enaout2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_sopout2" type="logic">
+      <obj_property name="ElementShortName">rx_sopout2</obj_property>
+      <obj_property name="ObjectShortName">rx_sopout2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_eopout2" type="logic">
+      <obj_property name="ElementShortName">rx_eopout2</obj_property>
+      <obj_property name="ObjectShortName">rx_eopout2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_errout2" type="logic">
+      <obj_property name="ElementShortName">rx_errout2</obj_property>
+      <obj_property name="ObjectShortName">rx_errout2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_mtyout2" type="array">
+      <obj_property name="ElementShortName">rx_mtyout2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mtyout2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_dataout3" type="array">
+      <obj_property name="ElementShortName">rx_dataout3[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dataout3[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_enaout3" type="logic">
+      <obj_property name="ElementShortName">rx_enaout3</obj_property>
+      <obj_property name="ObjectShortName">rx_enaout3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_sopout3" type="logic">
+      <obj_property name="ElementShortName">rx_sopout3</obj_property>
+      <obj_property name="ObjectShortName">rx_sopout3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_eopout3" type="logic">
+      <obj_property name="ElementShortName">rx_eopout3</obj_property>
+      <obj_property name="ObjectShortName">rx_eopout3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_errout3" type="logic">
+      <obj_property name="ElementShortName">rx_errout3</obj_property>
+      <obj_property name="ObjectShortName">rx_errout3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_mtyout3" type="array">
+      <obj_property name="ElementShortName">rx_mtyout3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mtyout3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/stat_rx_aligned" type="logic">
+      <obj_property name="ElementShortName">stat_rx_aligned</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_aligned</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/stat_rx_aligned_err" type="logic">
+      <obj_property name="ElementShortName">stat_rx_aligned_err</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_aligned_err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/sys_reset" type="logic">
+      <obj_property name="ElementShortName">sys_reset</obj_property>
+      <obj_property name="ObjectShortName">sys_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/core_rx_reset" type="logic">
+      <obj_property name="ElementShortName">core_rx_reset</obj_property>
+      <obj_property name="ObjectShortName">core_rx_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/core_tx_reset" type="logic">
+      <obj_property name="ElementShortName">core_tx_reset</obj_property>
+      <obj_property name="ObjectShortName">core_tx_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/usr_rx_reset" type="logic">
+      <obj_property name="ElementShortName">usr_rx_reset</obj_property>
+      <obj_property name="ObjectShortName">usr_rx_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/init_clk" type="logic">
+      <obj_property name="ElementShortName">init_clk</obj_property>
+      <obj_property name="ObjectShortName">init_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/clk_loop" type="logic">
+      <obj_property name="ElementShortName">clk_loop</obj_property>
+      <obj_property name="ObjectShortName">clk_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_rdyout" type="logic">
+      <obj_property name="ElementShortName">tx_rdyout</obj_property>
+      <obj_property name="ObjectShortName">tx_rdyout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/in_fifo_rden" type="logic">
+      <obj_property name="ElementShortName">in_fifo_rden</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_rden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/in_fifo_empty" type="logic">
+      <obj_property name="ElementShortName">in_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_datain0" type="array">
+      <obj_property name="ElementShortName">tx_datain0[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_datain0[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_enain0" type="logic">
+      <obj_property name="ElementShortName">tx_enain0</obj_property>
+      <obj_property name="ObjectShortName">tx_enain0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_sopin0" type="logic">
+      <obj_property name="ElementShortName">tx_sopin0</obj_property>
+      <obj_property name="ObjectShortName">tx_sopin0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_eopin0" type="logic">
+      <obj_property name="ElementShortName">tx_eopin0</obj_property>
+      <obj_property name="ObjectShortName">tx_eopin0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_errin0" type="logic">
+      <obj_property name="ElementShortName">tx_errin0</obj_property>
+      <obj_property name="ObjectShortName">tx_errin0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_mtyin0" type="array">
+      <obj_property name="ElementShortName">tx_mtyin0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mtyin0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_datain1" type="array">
+      <obj_property name="ElementShortName">tx_datain1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_datain1[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_enain1" type="logic">
+      <obj_property name="ElementShortName">tx_enain1</obj_property>
+      <obj_property name="ObjectShortName">tx_enain1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_sopin1" type="logic">
+      <obj_property name="ElementShortName">tx_sopin1</obj_property>
+      <obj_property name="ObjectShortName">tx_sopin1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_eopin1" type="logic">
+      <obj_property name="ElementShortName">tx_eopin1</obj_property>
+      <obj_property name="ObjectShortName">tx_eopin1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_errin1" type="logic">
+      <obj_property name="ElementShortName">tx_errin1</obj_property>
+      <obj_property name="ObjectShortName">tx_errin1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_mtyin1" type="array">
+      <obj_property name="ElementShortName">tx_mtyin1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mtyin1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_datain2" type="array">
+      <obj_property name="ElementShortName">tx_datain2[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_datain2[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_enain2" type="logic">
+      <obj_property name="ElementShortName">tx_enain2</obj_property>
+      <obj_property name="ObjectShortName">tx_enain2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_sopin2" type="logic">
+      <obj_property name="ElementShortName">tx_sopin2</obj_property>
+      <obj_property name="ObjectShortName">tx_sopin2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_eopin2" type="logic">
+      <obj_property name="ElementShortName">tx_eopin2</obj_property>
+      <obj_property name="ObjectShortName">tx_eopin2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_errin2" type="logic">
+      <obj_property name="ElementShortName">tx_errin2</obj_property>
+      <obj_property name="ObjectShortName">tx_errin2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_mtyin2" type="array">
+      <obj_property name="ElementShortName">tx_mtyin2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mtyin2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_datain3" type="array">
+      <obj_property name="ElementShortName">tx_datain3[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_datain3[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_enain3" type="logic">
+      <obj_property name="ElementShortName">tx_enain3</obj_property>
+      <obj_property name="ObjectShortName">tx_enain3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_sopin3" type="logic">
+      <obj_property name="ElementShortName">tx_sopin3</obj_property>
+      <obj_property name="ObjectShortName">tx_sopin3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_eopin3" type="logic">
+      <obj_property name="ElementShortName">tx_eopin3</obj_property>
+      <obj_property name="ObjectShortName">tx_eopin3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_errin3" type="logic">
+      <obj_property name="ElementShortName">tx_errin3</obj_property>
+      <obj_property name="ObjectShortName">tx_errin3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_mtyin3" type="array">
+      <obj_property name="ElementShortName">tx_mtyin3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mtyin3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_dataout0" type="array">
+      <obj_property name="ElementShortName">rx_dataout0[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dataout0[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_enaout0" type="logic">
+      <obj_property name="ElementShortName">rx_enaout0</obj_property>
+      <obj_property name="ObjectShortName">rx_enaout0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_sopout0" type="logic">
+      <obj_property name="ElementShortName">rx_sopout0</obj_property>
+      <obj_property name="ObjectShortName">rx_sopout0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_eopout0" type="logic">
+      <obj_property name="ElementShortName">rx_eopout0</obj_property>
+      <obj_property name="ObjectShortName">rx_eopout0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_errout0" type="logic">
+      <obj_property name="ElementShortName">rx_errout0</obj_property>
+      <obj_property name="ObjectShortName">rx_errout0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_mtyout0" type="array">
+      <obj_property name="ElementShortName">rx_mtyout0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mtyout0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_dataout1" type="array">
+      <obj_property name="ElementShortName">rx_dataout1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dataout1[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_enaout1" type="logic">
+      <obj_property name="ElementShortName">rx_enaout1</obj_property>
+      <obj_property name="ObjectShortName">rx_enaout1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_sopout1" type="logic">
+      <obj_property name="ElementShortName">rx_sopout1</obj_property>
+      <obj_property name="ObjectShortName">rx_sopout1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_eopout1" type="logic">
+      <obj_property name="ElementShortName">rx_eopout1</obj_property>
+      <obj_property name="ObjectShortName">rx_eopout1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_errout1" type="logic">
+      <obj_property name="ElementShortName">rx_errout1</obj_property>
+      <obj_property name="ObjectShortName">rx_errout1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_mtyout1" type="array">
+      <obj_property name="ElementShortName">rx_mtyout1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mtyout1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_dataout2" type="array">
+      <obj_property name="ElementShortName">rx_dataout2[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dataout2[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_enaout2" type="logic">
+      <obj_property name="ElementShortName">rx_enaout2</obj_property>
+      <obj_property name="ObjectShortName">rx_enaout2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_sopout2" type="logic">
+      <obj_property name="ElementShortName">rx_sopout2</obj_property>
+      <obj_property name="ObjectShortName">rx_sopout2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_eopout2" type="logic">
+      <obj_property name="ElementShortName">rx_eopout2</obj_property>
+      <obj_property name="ObjectShortName">rx_eopout2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_errout2" type="logic">
+      <obj_property name="ElementShortName">rx_errout2</obj_property>
+      <obj_property name="ObjectShortName">rx_errout2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_mtyout2" type="array">
+      <obj_property name="ElementShortName">rx_mtyout2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mtyout2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_dataout3" type="array">
+      <obj_property name="ElementShortName">rx_dataout3[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dataout3[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_enaout3" type="logic">
+      <obj_property name="ElementShortName">rx_enaout3</obj_property>
+      <obj_property name="ObjectShortName">rx_enaout3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_sopout3" type="logic">
+      <obj_property name="ElementShortName">rx_sopout3</obj_property>
+      <obj_property name="ObjectShortName">rx_sopout3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_eopout3" type="logic">
+      <obj_property name="ElementShortName">rx_eopout3</obj_property>
+      <obj_property name="ObjectShortName">rx_eopout3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_errout3" type="logic">
+      <obj_property name="ElementShortName">rx_errout3</obj_property>
+      <obj_property name="ObjectShortName">rx_errout3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_mtyout3" type="array">
+      <obj_property name="ElementShortName">rx_mtyout3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mtyout3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/fifo_prog_full" type="logic">
+      <obj_property name="ElementShortName">fifo_prog_full</obj_property>
+      <obj_property name="ObjectShortName">fifo_prog_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_valid" type="logic">
+      <obj_property name="ElementShortName">rx_valid</obj_property>
+      <obj_property name="ObjectShortName">rx_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/din" type="array">
+      <obj_property name="ElementShortName">din[543:0]</obj_property>
+      <obj_property name="ObjectShortName">din[543:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/dout" type="array">
+      <obj_property name="ElementShortName">dout[543:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[543:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/in_fifo_din" type="array">
+      <obj_property name="ElementShortName">in_fifo_din[543:0]</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_din[543:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rden" type="logic">
+      <obj_property name="ElementShortName">rden</obj_property>
+      <obj_property name="ObjectShortName">rden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rden_r" type="logic">
+      <obj_property name="ElementShortName">rden_r</obj_property>
+      <obj_property name="ObjectShortName">rden_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/in_fifo_wren" type="logic">
+      <obj_property name="ElementShortName">in_fifo_wren</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/in_fifo_rden" type="logic">
+      <obj_property name="ElementShortName">in_fifo_rden</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_rden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/in_fifo_dout" type="array">
+      <obj_property name="ElementShortName">in_fifo_dout[543:0]</obj_property>
+      <obj_property name="ObjectShortName">in_fifo_dout[543:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_rdyout" type="logic">
+      <obj_property name="ElementShortName">tx_rdyout</obj_property>
+      <obj_property name="ObjectShortName">tx_rdyout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/in_info_wren" type="logic">
+      <obj_property name="ElementShortName">in_info_wren</obj_property>
+      <obj_property name="ObjectShortName">in_info_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_axis_sop" type="logic">
+      <obj_property name="ElementShortName">rx_axis_sop</obj_property>
+      <obj_property name="ObjectShortName">rx_axis_sop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/in_info_empty" type="logic">
+      <obj_property name="ElementShortName">in_info_empty</obj_property>
+      <obj_property name="ObjectShortName">in_info_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/dout_eop" type="logic">
+      <obj_property name="ElementShortName">dout_eop</obj_property>
+      <obj_property name="ObjectShortName">dout_eop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/rx_eop" type="logic">
+      <obj_property name="ElementShortName">rx_eop</obj_property>
+      <obj_property name="ObjectShortName">rx_eop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/in_info_rden" type="logic">
+      <obj_property name="ElementShortName">in_info_rden</obj_property>
+      <obj_property name="ObjectShortName">in_info_rden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/tx_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">tx_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">tx_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/clk_loop" type="logic">
+      <obj_property name="ElementShortName">clk_loop</obj_property>
+      <obj_property name="ObjectShortName">clk_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/sys_reset" type="logic">
+      <obj_property name="ElementShortName">sys_reset</obj_property>
+      <obj_property name="ObjectShortName">sys_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/send_continuous_pkts" type="logic">
+      <obj_property name="ElementShortName">send_continuous_pkts</obj_property>
+      <obj_property name="ObjectShortName">send_continuous_pkts</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_aligned" type="logic">
+      <obj_property name="ElementShortName">stat_rx_aligned</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_aligned</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/lbus_tx_rx_restart_in" type="logic">
+      <obj_property name="ElementShortName">lbus_tx_rx_restart_in</obj_property>
+      <obj_property name="ObjectShortName">lbus_tx_rx_restart_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_enable" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_enable</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_force_resync" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_force_resync</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_force_resync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_test_pattern" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_test_pattern</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_test_pattern</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_reset" type="logic">
+      <obj_property name="ElementShortName">rx_reset</obj_property>
+      <obj_property name="ObjectShortName">rx_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_gt_locked_led" type="logic">
+      <obj_property name="ElementShortName">rx_gt_locked_led</obj_property>
+      <obj_property name="ObjectShortName">rx_gt_locked_led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_aligned_led" type="logic">
+      <obj_property name="ElementShortName">rx_aligned_led</obj_property>
+      <obj_property name="ObjectShortName">rx_aligned_led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_done_led" type="logic">
+      <obj_property name="ElementShortName">rx_done_led</obj_property>
+      <obj_property name="ObjectShortName">rx_done_led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_data_fail_led" type="logic">
+      <obj_property name="ElementShortName">rx_data_fail_led</obj_property>
+      <obj_property name="ObjectShortName">rx_data_fail_led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_busy_led" type="logic">
+      <obj_property name="ElementShortName">rx_busy_led</obj_property>
+      <obj_property name="ObjectShortName">rx_busy_led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_pause_enable" type="array">
+      <obj_property name="ElementShortName">ctl_rx_pause_enable[8:0]</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_pause_enable[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_enable_gcp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_enable_gcp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_enable_gcp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_mcast_gcp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_mcast_gcp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_mcast_gcp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_ucast_gcp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_ucast_gcp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_ucast_gcp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_sa_gcp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_sa_gcp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_sa_gcp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_etype_gcp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_etype_gcp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_etype_gcp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_opcode_gcp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_opcode_gcp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_opcode_gcp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_enable_pcp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_enable_pcp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_enable_pcp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_mcast_pcp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_mcast_pcp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_mcast_pcp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_ucast_pcp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_ucast_pcp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_ucast_pcp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_sa_pcp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_sa_pcp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_sa_pcp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_etype_pcp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_etype_pcp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_etype_pcp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_opcode_pcp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_opcode_pcp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_opcode_pcp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_enable_gpp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_enable_gpp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_enable_gpp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_mcast_gpp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_mcast_gpp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_mcast_gpp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_ucast_gpp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_ucast_gpp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_ucast_gpp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_sa_gpp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_sa_gpp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_sa_gpp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_etype_gpp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_etype_gpp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_etype_gpp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_opcode_gpp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_opcode_gpp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_opcode_gpp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_enable_ppp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_enable_ppp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_enable_ppp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_mcast_ppp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_mcast_ppp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_mcast_ppp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_ucast_ppp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_ucast_ppp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_ucast_ppp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_sa_ppp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_sa_ppp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_sa_ppp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_etype_ppp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_etype_ppp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_etype_ppp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_opcode_ppp" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_opcode_ppp</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_opcode_ppp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_pause_ack" type="array">
+      <obj_property name="ElementShortName">ctl_rx_pause_ack[8:0]</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_pause_ack[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause" type="logic">
+      <obj_property name="ElementShortName">stat_rx_pause</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_user_pause" type="logic">
+      <obj_property name="ElementShortName">stat_rx_user_pause</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_user_pause</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_req" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_req[8:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_req[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_valid" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_valid[8:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_valid[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_quanta0" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_quanta0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_quanta0[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_quanta1" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_quanta1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_quanta1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_quanta2" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_quanta2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_quanta2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_quanta3" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_quanta3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_quanta3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_quanta4" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_quanta4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_quanta4[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_quanta5" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_quanta5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_quanta5[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_quanta6" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_quanta6[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_quanta6[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_quanta7" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_quanta7[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_quanta7[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_quanta8" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_quanta8[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_quanta8[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_aligned_err" type="logic">
+      <obj_property name="ElementShortName">stat_rx_aligned_err</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_aligned_err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bad_code" type="array">
+      <obj_property name="ElementShortName">stat_rx_bad_code[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bad_code[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bad_fcs" type="array">
+      <obj_property name="ElementShortName">stat_rx_bad_fcs[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bad_fcs[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bad_preamble" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bad_preamble</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bad_preamble</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bad_sfd" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bad_sfd</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bad_sfd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_0" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_0</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_1" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_1</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_10" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_10</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_11" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_11</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_11</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_12" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_12</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_12</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_13" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_13</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_13</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_14" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_14</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_14</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_15" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_15</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_15</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_16" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_16</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_16</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_17" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_17</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_17</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_18" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_18</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_18</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_19" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_19</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_19</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_2" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_2</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_3" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_3</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_4" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_4</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_5" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_5</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_6" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_6</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_7" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_7</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_8" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_8</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_bip_err_9" type="logic">
+      <obj_property name="ElementShortName">stat_rx_bip_err_9</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_bip_err_9</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_block_lock" type="array">
+      <obj_property name="ElementShortName">stat_rx_block_lock[19:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_block_lock[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_broadcast" type="logic">
+      <obj_property name="ElementShortName">stat_rx_broadcast</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_broadcast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_fragment" type="array">
+      <obj_property name="ElementShortName">stat_rx_fragment[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_fragment[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_0" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_0[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_1" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_1[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_10" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_10[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_10[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_11" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_11[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_11[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_12" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_12[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_12[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_13" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_13[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_13[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_14" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_14[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_14[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_15" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_15[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_15[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_16" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_16[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_16[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_17" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_17[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_17[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_18" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_18[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_18[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_19" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_19[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_19[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_2" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_2[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_3" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_3[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_3[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_4" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_4[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_4[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_5" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_5[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_5[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_6" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_6[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_6[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_7" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_7[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_7[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_8" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_8[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_8[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_9" type="array">
+      <obj_property name="ElementShortName">stat_rx_framing_err_9[1:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_9[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_0" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_0</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_1" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_1</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_10" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_10</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_11" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_11</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_11</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_12" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_12</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_12</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_13" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_13</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_13</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_14" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_14</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_14</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_15" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_15</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_15</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_16" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_16</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_16</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_17" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_17</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_17</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_18" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_18</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_18</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_19" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_19</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_19</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_2" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_2</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_3" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_3</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_4" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_4</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_5" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_5</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_6" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_6</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_7" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_7</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_8" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_8</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_framing_err_valid_9" type="logic">
+      <obj_property name="ElementShortName">stat_rx_framing_err_valid_9</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_framing_err_valid_9</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_got_signal_os" type="logic">
+      <obj_property name="ElementShortName">stat_rx_got_signal_os</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_got_signal_os</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_hi_ber" type="logic">
+      <obj_property name="ElementShortName">stat_rx_hi_ber</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_hi_ber</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_inrangeerr" type="logic">
+      <obj_property name="ElementShortName">stat_rx_inrangeerr</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_inrangeerr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_internal_local_fault" type="logic">
+      <obj_property name="ElementShortName">stat_rx_internal_local_fault</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_internal_local_fault</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_jabber" type="logic">
+      <obj_property name="ElementShortName">stat_rx_jabber</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_jabber</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_local_fault" type="logic">
+      <obj_property name="ElementShortName">stat_rx_local_fault</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_local_fault</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_mf_err" type="array">
+      <obj_property name="ElementShortName">stat_rx_mf_err[19:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_mf_err[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_mf_len_err" type="array">
+      <obj_property name="ElementShortName">stat_rx_mf_len_err[19:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_mf_len_err[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_mf_repeat_err" type="array">
+      <obj_property name="ElementShortName">stat_rx_mf_repeat_err[19:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_mf_repeat_err[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_misaligned" type="logic">
+      <obj_property name="ElementShortName">stat_rx_misaligned</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_misaligned</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_multicast" type="logic">
+      <obj_property name="ElementShortName">stat_rx_multicast</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_multicast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_oversize" type="logic">
+      <obj_property name="ElementShortName">stat_rx_oversize</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_oversize</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_packet_1024_1518_bytes" type="logic">
+      <obj_property name="ElementShortName">stat_rx_packet_1024_1518_bytes</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_packet_1024_1518_bytes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_packet_128_255_bytes" type="logic">
+      <obj_property name="ElementShortName">stat_rx_packet_128_255_bytes</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_packet_128_255_bytes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_packet_1519_1522_bytes" type="logic">
+      <obj_property name="ElementShortName">stat_rx_packet_1519_1522_bytes</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_packet_1519_1522_bytes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_packet_1523_1548_bytes" type="logic">
+      <obj_property name="ElementShortName">stat_rx_packet_1523_1548_bytes</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_packet_1523_1548_bytes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_packet_1549_2047_bytes" type="logic">
+      <obj_property name="ElementShortName">stat_rx_packet_1549_2047_bytes</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_packet_1549_2047_bytes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_packet_2048_4095_bytes" type="logic">
+      <obj_property name="ElementShortName">stat_rx_packet_2048_4095_bytes</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_packet_2048_4095_bytes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_packet_256_511_bytes" type="logic">
+      <obj_property name="ElementShortName">stat_rx_packet_256_511_bytes</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_packet_256_511_bytes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_packet_4096_8191_bytes" type="logic">
+      <obj_property name="ElementShortName">stat_rx_packet_4096_8191_bytes</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_packet_4096_8191_bytes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_packet_512_1023_bytes" type="logic">
+      <obj_property name="ElementShortName">stat_rx_packet_512_1023_bytes</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_packet_512_1023_bytes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_packet_64_bytes" type="logic">
+      <obj_property name="ElementShortName">stat_rx_packet_64_bytes</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_packet_64_bytes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_packet_65_127_bytes" type="logic">
+      <obj_property name="ElementShortName">stat_rx_packet_65_127_bytes</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_packet_65_127_bytes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_packet_8192_9215_bytes" type="logic">
+      <obj_property name="ElementShortName">stat_rx_packet_8192_9215_bytes</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_packet_8192_9215_bytes</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_packet_bad_fcs" type="logic">
+      <obj_property name="ElementShortName">stat_rx_packet_bad_fcs</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_packet_bad_fcs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_packet_large" type="logic">
+      <obj_property name="ElementShortName">stat_rx_packet_large</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_packet_large</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_packet_small" type="array">
+      <obj_property name="ElementShortName">stat_rx_packet_small[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_packet_small[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_received_local_fault" type="logic">
+      <obj_property name="ElementShortName">stat_rx_received_local_fault</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_received_local_fault</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_remote_fault" type="logic">
+      <obj_property name="ElementShortName">stat_rx_remote_fault</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_remote_fault</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_status" type="logic">
+      <obj_property name="ElementShortName">stat_rx_status</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_stomped_fcs" type="array">
+      <obj_property name="ElementShortName">stat_rx_stomped_fcs[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_stomped_fcs[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_synced" type="array">
+      <obj_property name="ElementShortName">stat_rx_synced[19:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_synced[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_synced_err" type="array">
+      <obj_property name="ElementShortName">stat_rx_synced_err[19:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_synced_err[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_test_pattern_mismatch" type="array">
+      <obj_property name="ElementShortName">stat_rx_test_pattern_mismatch[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_test_pattern_mismatch[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_toolong" type="logic">
+      <obj_property name="ElementShortName">stat_rx_toolong</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_toolong</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_total_bytes" type="array">
+      <obj_property name="ElementShortName">stat_rx_total_bytes[6:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_total_bytes[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_total_good_bytes" type="array">
+      <obj_property name="ElementShortName">stat_rx_total_good_bytes[13:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_total_good_bytes[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_total_good_packets" type="logic">
+      <obj_property name="ElementShortName">stat_rx_total_good_packets</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_total_good_packets</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_total_packets" type="array">
+      <obj_property name="ElementShortName">stat_rx_total_packets[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_total_packets[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_truncated" type="logic">
+      <obj_property name="ElementShortName">stat_rx_truncated</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_truncated</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_undersize" type="array">
+      <obj_property name="ElementShortName">stat_rx_undersize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_undersize[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_unicast" type="logic">
+      <obj_property name="ElementShortName">stat_rx_unicast</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_unicast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_vlan" type="logic">
+      <obj_property name="ElementShortName">stat_rx_vlan</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_vlan</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_demuxed" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_demuxed[19:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_demuxed[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_0" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_0[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_0[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_1" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_10" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_10[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_10[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_11" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_11[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_11[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_12" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_12[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_12[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_13" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_13[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_13[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_14" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_14[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_14[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_15" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_15[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_15[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_16" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_16[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_16[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_17" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_17[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_17[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_18" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_18[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_18[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_19" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_19[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_19[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_2" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_3" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_3[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_4" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_4[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_4[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_5" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_5[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_5[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_6" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_6[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_6[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_7" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_7[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_7[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_8" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_8[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_8[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pcsl_number_9" type="array">
+      <obj_property name="ElementShortName">stat_rx_pcsl_number_9[4:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pcsl_number_9[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_preambleout" type="array">
+      <obj_property name="ElementShortName">rx_preambleout[55:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_preambleout[55:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_data_fail" type="logic">
+      <obj_property name="ElementShortName">rx_data_fail</obj_property>
+      <obj_property name="ObjectShortName">rx_data_fail</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/exp_datain0" type="array">
+      <obj_property name="ElementShortName">exp_datain0[127:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_datain0[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/exp_datain1" type="array">
+      <obj_property name="ElementShortName">exp_datain1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_datain1[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/exp_datain2" type="array">
+      <obj_property name="ElementShortName">exp_datain2[127:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_datain2[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/exp_datain3" type="array">
+      <obj_property name="ElementShortName">exp_datain3[127:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_datain3[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_dataout0" type="array">
+      <obj_property name="ElementShortName">rx_dataout0[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dataout0[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_enaout0" type="logic">
+      <obj_property name="ElementShortName">rx_enaout0</obj_property>
+      <obj_property name="ObjectShortName">rx_enaout0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_sopout0" type="logic">
+      <obj_property name="ElementShortName">rx_sopout0</obj_property>
+      <obj_property name="ObjectShortName">rx_sopout0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_eopout0" type="logic">
+      <obj_property name="ElementShortName">rx_eopout0</obj_property>
+      <obj_property name="ObjectShortName">rx_eopout0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_errout0" type="logic">
+      <obj_property name="ElementShortName">rx_errout0</obj_property>
+      <obj_property name="ObjectShortName">rx_errout0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_mtyout0" type="array">
+      <obj_property name="ElementShortName">rx_mtyout0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mtyout0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_dataout1" type="array">
+      <obj_property name="ElementShortName">rx_dataout1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dataout1[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_enaout1" type="logic">
+      <obj_property name="ElementShortName">rx_enaout1</obj_property>
+      <obj_property name="ObjectShortName">rx_enaout1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_sopout1" type="logic">
+      <obj_property name="ElementShortName">rx_sopout1</obj_property>
+      <obj_property name="ObjectShortName">rx_sopout1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_eopout1" type="logic">
+      <obj_property name="ElementShortName">rx_eopout1</obj_property>
+      <obj_property name="ObjectShortName">rx_eopout1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_errout1" type="logic">
+      <obj_property name="ElementShortName">rx_errout1</obj_property>
+      <obj_property name="ObjectShortName">rx_errout1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_mtyout1" type="array">
+      <obj_property name="ElementShortName">rx_mtyout1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mtyout1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_dataout2" type="array">
+      <obj_property name="ElementShortName">rx_dataout2[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dataout2[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_enaout2" type="logic">
+      <obj_property name="ElementShortName">rx_enaout2</obj_property>
+      <obj_property name="ObjectShortName">rx_enaout2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_sopout2" type="logic">
+      <obj_property name="ElementShortName">rx_sopout2</obj_property>
+      <obj_property name="ObjectShortName">rx_sopout2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_eopout2" type="logic">
+      <obj_property name="ElementShortName">rx_eopout2</obj_property>
+      <obj_property name="ObjectShortName">rx_eopout2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_errout2" type="logic">
+      <obj_property name="ElementShortName">rx_errout2</obj_property>
+      <obj_property name="ObjectShortName">rx_errout2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_mtyout2" type="array">
+      <obj_property name="ElementShortName">rx_mtyout2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mtyout2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_dataout3" type="array">
+      <obj_property name="ElementShortName">rx_dataout3[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dataout3[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_enaout3" type="logic">
+      <obj_property name="ElementShortName">rx_enaout3</obj_property>
+      <obj_property name="ObjectShortName">rx_enaout3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_sopout3" type="logic">
+      <obj_property name="ElementShortName">rx_sopout3</obj_property>
+      <obj_property name="ObjectShortName">rx_sopout3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_eopout3" type="logic">
+      <obj_property name="ElementShortName">rx_eopout3</obj_property>
+      <obj_property name="ObjectShortName">rx_eopout3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_errout3" type="logic">
+      <obj_property name="ElementShortName">rx_errout3</obj_property>
+      <obj_property name="ObjectShortName">rx_errout3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_mtyout3" type="array">
+      <obj_property name="ElementShortName">rx_mtyout3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mtyout3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_prestate" type="array">
+      <obj_property name="ElementShortName">rx_prestate[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_prestate[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rcv_datain0" type="array">
+      <obj_property name="ElementShortName">rcv_datain0[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rcv_datain0[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rcv_datain1" type="array">
+      <obj_property name="ElementShortName">rcv_datain1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rcv_datain1[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rcv_datain2" type="array">
+      <obj_property name="ElementShortName">rcv_datain2[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rcv_datain2[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rcv_datain3" type="array">
+      <obj_property name="ElementShortName">rcv_datain3[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rcv_datain3[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rcv_data" type="array">
+      <obj_property name="ElementShortName">rcv_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rcv_data[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rcv_data_cmp" type="array">
+      <obj_property name="ElementShortName">rcv_data_cmp[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rcv_data_cmp[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/exp_datain0" type="array">
+      <obj_property name="ElementShortName">exp_datain0[127:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_datain0[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/exp_datain1" type="array">
+      <obj_property name="ElementShortName">exp_datain1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_datain1[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/exp_datain2" type="array">
+      <obj_property name="ElementShortName">exp_datain2[127:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_datain2[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/exp_datain3" type="array">
+      <obj_property name="ElementShortName">exp_datain3[127:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_datain3[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/exp_data" type="array">
+      <obj_property name="ElementShortName">exp_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_data[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/exp_data_cmp" type="array">
+      <obj_property name="ElementShortName">exp_data_cmp[127:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_data_cmp[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_dataout0_d" type="array">
+      <obj_property name="ElementShortName">rx_dataout0_d[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dataout0_d[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_dataout1_d" type="array">
+      <obj_property name="ElementShortName">rx_dataout1_d[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dataout1_d[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_dataout2_d" type="array">
+      <obj_property name="ElementShortName">rx_dataout2_d[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dataout2_d[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_dataout3_d" type="array">
+      <obj_property name="ElementShortName">rx_dataout3_d[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_dataout3_d[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_enaout0_d" type="logic">
+      <obj_property name="ElementShortName">rx_enaout0_d</obj_property>
+      <obj_property name="ObjectShortName">rx_enaout0_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_enaout1_d" type="logic">
+      <obj_property name="ElementShortName">rx_enaout1_d</obj_property>
+      <obj_property name="ObjectShortName">rx_enaout1_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_enaout2_d" type="logic">
+      <obj_property name="ElementShortName">rx_enaout2_d</obj_property>
+      <obj_property name="ObjectShortName">rx_enaout2_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_enaout3_d" type="logic">
+      <obj_property name="ElementShortName">rx_enaout3_d</obj_property>
+      <obj_property name="ObjectShortName">rx_enaout3_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_sopout0_d" type="logic">
+      <obj_property name="ElementShortName">rx_sopout0_d</obj_property>
+      <obj_property name="ObjectShortName">rx_sopout0_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_sopout1_d" type="logic">
+      <obj_property name="ElementShortName">rx_sopout1_d</obj_property>
+      <obj_property name="ObjectShortName">rx_sopout1_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_sopout2_d" type="logic">
+      <obj_property name="ElementShortName">rx_sopout2_d</obj_property>
+      <obj_property name="ObjectShortName">rx_sopout2_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_sopout3_d" type="logic">
+      <obj_property name="ElementShortName">rx_sopout3_d</obj_property>
+      <obj_property name="ObjectShortName">rx_sopout3_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_eopout0_d" type="logic">
+      <obj_property name="ElementShortName">rx_eopout0_d</obj_property>
+      <obj_property name="ObjectShortName">rx_eopout0_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_eopout1_d" type="logic">
+      <obj_property name="ElementShortName">rx_eopout1_d</obj_property>
+      <obj_property name="ObjectShortName">rx_eopout1_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_eopout2_d" type="logic">
+      <obj_property name="ElementShortName">rx_eopout2_d</obj_property>
+      <obj_property name="ObjectShortName">rx_eopout2_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_eopout3_d" type="logic">
+      <obj_property name="ElementShortName">rx_eopout3_d</obj_property>
+      <obj_property name="ObjectShortName">rx_eopout3_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_errout0_d" type="logic">
+      <obj_property name="ElementShortName">rx_errout0_d</obj_property>
+      <obj_property name="ObjectShortName">rx_errout0_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_errout1_d" type="logic">
+      <obj_property name="ElementShortName">rx_errout1_d</obj_property>
+      <obj_property name="ObjectShortName">rx_errout1_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_errout2_d" type="logic">
+      <obj_property name="ElementShortName">rx_errout2_d</obj_property>
+      <obj_property name="ObjectShortName">rx_errout2_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_errout3_d" type="logic">
+      <obj_property name="ElementShortName">rx_errout3_d</obj_property>
+      <obj_property name="ObjectShortName">rx_errout3_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_mtyout0_d" type="array">
+      <obj_property name="ElementShortName">rx_mtyout0_d[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mtyout0_d[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_mtyout1_d" type="array">
+      <obj_property name="ElementShortName">rx_mtyout1_d[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mtyout1_d[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_mtyout2_d" type="array">
+      <obj_property name="ElementShortName">rx_mtyout2_d[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mtyout2_d[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_mtyout3_d" type="array">
+      <obj_property name="ElementShortName">rx_mtyout3_d[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mtyout3_d[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_restart_rise_edge" type="logic">
+      <obj_property name="ElementShortName">rx_restart_rise_edge</obj_property>
+      <obj_property name="ObjectShortName">rx_restart_rise_edge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_fsm_en" type="logic">
+      <obj_property name="ElementShortName">rx_fsm_en</obj_property>
+      <obj_property name="ObjectShortName">rx_fsm_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_done_reg" type="logic">
+      <obj_property name="ElementShortName">rx_done_reg</obj_property>
+      <obj_property name="ObjectShortName">rx_done_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_data_fail" type="logic">
+      <obj_property name="ElementShortName">rx_data_fail</obj_property>
+      <obj_property name="ObjectShortName">rx_data_fail</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/wait_to_restart" type="logic">
+      <obj_property name="ElementShortName">wait_to_restart</obj_property>
+      <obj_property name="ObjectShortName">wait_to_restart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_restart_1d" type="logic">
+      <obj_property name="ElementShortName">rx_restart_1d</obj_property>
+      <obj_property name="ObjectShortName">rx_restart_1d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_restart_2d" type="logic">
+      <obj_property name="ElementShortName">rx_restart_2d</obj_property>
+      <obj_property name="ObjectShortName">rx_restart_2d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_restart_3d" type="logic">
+      <obj_property name="ElementShortName">rx_restart_3d</obj_property>
+      <obj_property name="ObjectShortName">rx_restart_3d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_restart_4d" type="logic">
+      <obj_property name="ElementShortName">rx_restart_4d</obj_property>
+      <obj_property name="ObjectShortName">rx_restart_4d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/check_seg0" type="logic">
+      <obj_property name="ElementShortName">check_seg0</obj_property>
+      <obj_property name="ObjectShortName">check_seg0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/check_seg1" type="logic">
+      <obj_property name="ElementShortName">check_seg1</obj_property>
+      <obj_property name="ObjectShortName">check_seg1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/check_seg2" type="logic">
+      <obj_property name="ElementShortName">check_seg2</obj_property>
+      <obj_property name="ObjectShortName">check_seg2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/check_seg3" type="logic">
+      <obj_property name="ElementShortName">check_seg3</obj_property>
+      <obj_property name="ObjectShortName">check_seg3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/invalid_lsb_bytes" type="array">
+      <obj_property name="ElementShortName">invalid_lsb_bytes[3:0]</obj_property>
+      <obj_property name="ObjectShortName">invalid_lsb_bytes[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_payload_16byte" type="array">
+      <obj_property name="ElementShortName">rx_payload_16byte[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_payload_16byte[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_payload_16byte_new" type="array">
+      <obj_property name="ElementShortName">rx_payload_16byte_new[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_payload_16byte_new[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_payload_1" type="array">
+      <obj_property name="ElementShortName">rx_payload_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_payload_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_payload_2" type="array">
+      <obj_property name="ElementShortName">rx_payload_2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_payload_2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_payload_new" type="array">
+      <obj_property name="ElementShortName">rx_payload_new[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_payload_new[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_data0_chk_fail" type="logic">
+      <obj_property name="ElementShortName">rx_data0_chk_fail</obj_property>
+      <obj_property name="ObjectShortName">rx_data0_chk_fail</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_data1_chk_fail" type="logic">
+      <obj_property name="ElementShortName">rx_data1_chk_fail</obj_property>
+      <obj_property name="ObjectShortName">rx_data1_chk_fail</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_data2_chk_fail" type="logic">
+      <obj_property name="ElementShortName">rx_data2_chk_fail</obj_property>
+      <obj_property name="ObjectShortName">rx_data2_chk_fail</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_data3_chk_fail" type="logic">
+      <obj_property name="ElementShortName">rx_data3_chk_fail</obj_property>
+      <obj_property name="ObjectShortName">rx_data3_chk_fail</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/byte_cmp_fail" type="logic">
+      <obj_property name="ElementShortName">byte_cmp_fail</obj_property>
+      <obj_property name="ObjectShortName">byte_cmp_fail</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/number_pkt_rx" type="array">
+      <obj_property name="ElementShortName">number_pkt_rx[15:0]</obj_property>
+      <obj_property name="ObjectShortName">number_pkt_rx[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/lbus_number_pkt_proc" type="array">
+      <obj_property name="ElementShortName">lbus_number_pkt_proc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">lbus_number_pkt_proc[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_aligned_1d" type="logic">
+      <obj_property name="ElementShortName">stat_rx_aligned_1d</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_aligned_1d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/reset_done" type="logic">
+      <obj_property name="ElementShortName">reset_done</obj_property>
+      <obj_property name="ObjectShortName">reset_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_enable_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_enable_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_enable_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_force_resync_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_force_resync_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_force_resync_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_test_pattern_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_test_pattern_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_test_pattern_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/gt_lock_led" type="logic">
+      <obj_property name="ElementShortName">gt_lock_led</obj_property>
+      <obj_property name="ObjectShortName">gt_lock_led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_aligned_led_c" type="logic">
+      <obj_property name="ElementShortName">rx_aligned_led_c</obj_property>
+      <obj_property name="ObjectShortName">rx_aligned_led_c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_core_busy_led" type="logic">
+      <obj_property name="ElementShortName">rx_core_busy_led</obj_property>
+      <obj_property name="ObjectShortName">rx_core_busy_led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_gt_locked_led_1d" type="logic">
+      <obj_property name="ElementShortName">rx_gt_locked_led_1d</obj_property>
+      <obj_property name="ObjectShortName">rx_gt_locked_led_1d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_aligned_led_1d" type="logic">
+      <obj_property name="ElementShortName">stat_rx_aligned_led_1d</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_aligned_led_1d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_done_led_1d" type="logic">
+      <obj_property name="ElementShortName">rx_done_led_1d</obj_property>
+      <obj_property name="ObjectShortName">rx_done_led_1d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_data_fail_led_1d" type="logic">
+      <obj_property name="ElementShortName">rx_data_fail_led_1d</obj_property>
+      <obj_property name="ObjectShortName">rx_data_fail_led_1d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_core_busy_led_1d" type="logic">
+      <obj_property name="ElementShortName">rx_core_busy_led_1d</obj_property>
+      <obj_property name="ObjectShortName">rx_core_busy_led_1d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_gt_locked_led_2d" type="logic">
+      <obj_property name="ElementShortName">rx_gt_locked_led_2d</obj_property>
+      <obj_property name="ObjectShortName">rx_gt_locked_led_2d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_aligned_led_2d" type="logic">
+      <obj_property name="ElementShortName">stat_rx_aligned_led_2d</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_aligned_led_2d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_done_led_2d" type="logic">
+      <obj_property name="ElementShortName">rx_done_led_2d</obj_property>
+      <obj_property name="ObjectShortName">rx_done_led_2d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_data_fail_led_2d" type="logic">
+      <obj_property name="ElementShortName">rx_data_fail_led_2d</obj_property>
+      <obj_property name="ObjectShortName">rx_data_fail_led_2d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_core_busy_led_2d" type="logic">
+      <obj_property name="ElementShortName">rx_core_busy_led_2d</obj_property>
+      <obj_property name="ObjectShortName">rx_core_busy_led_2d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_gt_locked_led_3d" type="logic">
+      <obj_property name="ElementShortName">rx_gt_locked_led_3d</obj_property>
+      <obj_property name="ObjectShortName">rx_gt_locked_led_3d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_aligned_led_3d" type="logic">
+      <obj_property name="ElementShortName">stat_rx_aligned_led_3d</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_aligned_led_3d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_done_led_3d" type="logic">
+      <obj_property name="ElementShortName">rx_done_led_3d</obj_property>
+      <obj_property name="ObjectShortName">rx_done_led_3d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_data_fail_led_3d" type="logic">
+      <obj_property name="ElementShortName">rx_data_fail_led_3d</obj_property>
+      <obj_property name="ObjectShortName">rx_data_fail_led_3d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/rx_core_busy_led_3d" type="logic">
+      <obj_property name="ElementShortName">rx_core_busy_led_3d</obj_property>
+      <obj_property name="ObjectShortName">rx_core_busy_led_3d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_pause_enable_r" type="array">
+      <obj_property name="ElementShortName">ctl_rx_pause_enable_r[8:0]</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_pause_enable_r[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_enable_gcp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_enable_gcp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_enable_gcp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_mcast_gcp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_mcast_gcp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_mcast_gcp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_ucast_gcp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_ucast_gcp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_ucast_gcp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_sa_gcp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_sa_gcp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_sa_gcp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_etype_gcp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_etype_gcp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_etype_gcp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_opcode_gcp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_opcode_gcp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_opcode_gcp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_enable_pcp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_enable_pcp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_enable_pcp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_mcast_pcp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_mcast_pcp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_mcast_pcp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_ucast_pcp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_ucast_pcp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_ucast_pcp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_sa_pcp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_sa_pcp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_sa_pcp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_etype_pcp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_etype_pcp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_etype_pcp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_opcode_pcp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_opcode_pcp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_opcode_pcp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_enable_gpp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_enable_gpp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_enable_gpp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_mcast_gpp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_mcast_gpp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_mcast_gpp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_ucast_gpp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_ucast_gpp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_ucast_gpp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_sa_gpp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_sa_gpp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_sa_gpp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_etype_gpp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_etype_gpp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_etype_gpp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_opcode_gpp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_opcode_gpp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_opcode_gpp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_enable_ppp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_enable_ppp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_enable_ppp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_mcast_ppp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_mcast_ppp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_mcast_ppp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_ucast_ppp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_ucast_ppp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_ucast_ppp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_sa_ppp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_sa_ppp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_sa_ppp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_etype_ppp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_etype_ppp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_etype_ppp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_check_opcode_ppp_r" type="logic">
+      <obj_property name="ElementShortName">ctl_rx_check_opcode_ppp_r</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_check_opcode_ppp_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/ctl_rx_pause_ack_r" type="array">
+      <obj_property name="ElementShortName">ctl_rx_pause_ack_r[8:0]</obj_property>
+      <obj_property name="ObjectShortName">ctl_rx_pause_ack_r[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/pause_test_done" type="logic">
+      <obj_property name="ElementShortName">pause_test_done</obj_property>
+      <obj_property name="ObjectShortName">pause_test_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_r" type="logic">
+      <obj_property name="ElementShortName">stat_rx_pause_r</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_user_pause_r" type="logic">
+      <obj_property name="ElementShortName">stat_rx_user_pause_r</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_user_pause_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_req_r" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_req_r[8:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_req_r[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_valid_r" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_valid_r[8:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_valid_r[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_quanta0_r" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_quanta0_r[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_quanta0_r[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_quanta1_r" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_quanta1_r[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_quanta1_r[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_quanta2_r" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_quanta2_r[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_quanta2_r[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_quanta3_r" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_quanta3_r[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_quanta3_r[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_quanta4_r" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_quanta4_r[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_quanta4_r[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_quanta5_r" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_quanta5_r[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_quanta5_r[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_quanta6_r" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_quanta6_r[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_quanta6_r[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_quanta7_r" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_quanta7_r[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_quanta7_r[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/stat_rx_pause_quanta8_r" type="array">
+      <obj_property name="ElementShortName">stat_rx_pause_quanta8_r[15:0]</obj_property>
+      <obj_property name="ObjectShortName">stat_rx_pause_quanta8_r[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/pause_ppp_rcvd_status" type="array">
+      <obj_property name="ElementShortName">pause_ppp_rcvd_status[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pause_ppp_rcvd_status[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/init_cntr" type="array">
+      <obj_property name="ElementShortName">init_cntr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">init_cntr[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/init_done" type="logic">
+      <obj_property name="ElementShortName">init_done</obj_property>
+      <obj_property name="ObjectShortName">init_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/init_cntr_en" type="logic">
+      <obj_property name="ElementShortName">init_cntr_en</obj_property>
+      <obj_property name="ObjectShortName">init_cntr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/send_continuous_pkts_1d" type="logic">
+      <obj_property name="ElementShortName">send_continuous_pkts_1d</obj_property>
+      <obj_property name="ObjectShortName">send_continuous_pkts_1d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/send_continuous_pkts_2d" type="logic">
+      <obj_property name="ElementShortName">send_continuous_pkts_2d</obj_property>
+      <obj_property name="ObjectShortName">send_continuous_pkts_2d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/send_continuous_pkts_3d" type="logic">
+      <obj_property name="ElementShortName">send_continuous_pkts_3d</obj_property>
+      <obj_property name="ObjectShortName">send_continuous_pkts_3d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/PKT_NUM" type="array">
+      <obj_property name="ElementShortName">PKT_NUM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PKT_NUM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/STATE_RX_IDLE" type="array">
+      <obj_property name="ElementShortName">STATE_RX_IDLE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_RX_IDLE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/STATE_GT_LOCKED" type="array">
+      <obj_property name="ElementShortName">STATE_GT_LOCKED[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_GT_LOCKED[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/STATE_WAIT_RX_ALIGNED" type="array">
+      <obj_property name="ElementShortName">STATE_WAIT_RX_ALIGNED[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_WAIT_RX_ALIGNED[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/STATE_PKT_TRANSFER_INIT" type="array">
+      <obj_property name="ElementShortName">STATE_PKT_TRANSFER_INIT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_PKT_TRANSFER_INIT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/STATE_LBUS_RX_ENABLE" type="array">
+      <obj_property name="ElementShortName">STATE_LBUS_RX_ENABLE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_LBUS_RX_ENABLE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/STATE_LBUS_RX_DONE" type="array">
+      <obj_property name="ElementShortName">STATE_LBUS_RX_DONE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_LBUS_RX_DONE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/i_cmac_usplus_0_pkt_gen_mon/i_cmac_usplus_0_lbus_pkt_mon/STATE_WAIT_FOR_RESTART" type="array">
+      <obj_property name="ElementShortName">STATE_WAIT_FOR_RESTART[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_WAIT_FOR_RESTART[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_rdyout" type="logic">
+      <obj_property name="ElementShortName">tx_rdyout</obj_property>
+      <obj_property name="ObjectShortName">tx_rdyout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/u_loop_buf/clk_loop" type="logic">
+      <obj_property name="ElementShortName">clk_loop</obj_property>
+      <obj_property name="ObjectShortName">clk_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_datain0" type="array">
+      <obj_property name="ElementShortName">tx_datain0[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_datain0[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_datain1" type="array">
+      <obj_property name="ElementShortName">tx_datain1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_datain1[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_datain2" type="array">
+      <obj_property name="ElementShortName">tx_datain2[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_datain2[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_datain3" type="array">
+      <obj_property name="ElementShortName">tx_datain3[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_datain3[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_enain0" type="logic">
+      <obj_property name="ElementShortName">tx_enain0</obj_property>
+      <obj_property name="ObjectShortName">tx_enain0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_enain1" type="logic">
+      <obj_property name="ElementShortName">tx_enain1</obj_property>
+      <obj_property name="ObjectShortName">tx_enain1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_enain2" type="logic">
+      <obj_property name="ElementShortName">tx_enain2</obj_property>
+      <obj_property name="ObjectShortName">tx_enain2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_enain3" type="logic">
+      <obj_property name="ElementShortName">tx_enain3</obj_property>
+      <obj_property name="ObjectShortName">tx_enain3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_eopin0" type="logic">
+      <obj_property name="ElementShortName">tx_eopin0</obj_property>
+      <obj_property name="ObjectShortName">tx_eopin0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_eopin1" type="logic">
+      <obj_property name="ElementShortName">tx_eopin1</obj_property>
+      <obj_property name="ObjectShortName">tx_eopin1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_eopin2" type="logic">
+      <obj_property name="ElementShortName">tx_eopin2</obj_property>
+      <obj_property name="ObjectShortName">tx_eopin2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_eopin3" type="logic">
+      <obj_property name="ElementShortName">tx_eopin3</obj_property>
+      <obj_property name="ObjectShortName">tx_eopin3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_errin0" type="logic">
+      <obj_property name="ElementShortName">tx_errin0</obj_property>
+      <obj_property name="ObjectShortName">tx_errin0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_errin1" type="logic">
+      <obj_property name="ElementShortName">tx_errin1</obj_property>
+      <obj_property name="ObjectShortName">tx_errin1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_errin2" type="logic">
+      <obj_property name="ElementShortName">tx_errin2</obj_property>
+      <obj_property name="ObjectShortName">tx_errin2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_errin3" type="logic">
+      <obj_property name="ElementShortName">tx_errin3</obj_property>
+      <obj_property name="ObjectShortName">tx_errin3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_mtyin0" type="array">
+      <obj_property name="ElementShortName">tx_mtyin0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mtyin0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_mtyin1" type="array">
+      <obj_property name="ElementShortName">tx_mtyin1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mtyin1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_mtyin2" type="array">
+      <obj_property name="ElementShortName">tx_mtyin2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mtyin2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_mtyin3" type="array">
+      <obj_property name="ElementShortName">tx_mtyin3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mtyin3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_sopin0" type="logic">
+      <obj_property name="ElementShortName">tx_sopin0</obj_property>
+      <obj_property name="ObjectShortName">tx_sopin0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_sopin1" type="logic">
+      <obj_property name="ElementShortName">tx_sopin1</obj_property>
+      <obj_property name="ObjectShortName">tx_sopin1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_sopin2" type="logic">
+      <obj_property name="ElementShortName">tx_sopin2</obj_property>
+      <obj_property name="ObjectShortName">tx_sopin2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_sopin3" type="logic">
+      <obj_property name="ElementShortName">tx_sopin3</obj_property>
+      <obj_property name="ObjectShortName">tx_sopin3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_ovfout" type="logic">
+      <obj_property name="ElementShortName">tx_ovfout</obj_property>
+      <obj_property name="ObjectShortName">tx_ovfout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_unfout" type="logic">
+      <obj_property name="ElementShortName">tx_unfout</obj_property>
+      <obj_property name="ObjectShortName">tx_unfout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_rdyout" type="logic">
+      <obj_property name="ElementShortName">tx_rdyout</obj_property>
+      <obj_property name="ObjectShortName">tx_rdyout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_datain0" type="array">
+      <obj_property name="ElementShortName">tx_datain0[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_datain0[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_datain1" type="array">
+      <obj_property name="ElementShortName">tx_datain1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_datain1[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_datain2" type="array">
+      <obj_property name="ElementShortName">tx_datain2[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_datain2[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_datain3" type="array">
+      <obj_property name="ElementShortName">tx_datain3[127:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_datain3[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/gt_txusrclk2" type="logic">
+      <obj_property name="ElementShortName">gt_txusrclk2</obj_property>
+      <obj_property name="ObjectShortName">gt_txusrclk2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_enain0" type="logic">
+      <obj_property name="ElementShortName">tx_enain0</obj_property>
+      <obj_property name="ObjectShortName">tx_enain0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_enain1" type="logic">
+      <obj_property name="ElementShortName">tx_enain1</obj_property>
+      <obj_property name="ObjectShortName">tx_enain1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_enain2" type="logic">
+      <obj_property name="ElementShortName">tx_enain2</obj_property>
+      <obj_property name="ObjectShortName">tx_enain2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_enain3" type="logic">
+      <obj_property name="ElementShortName">tx_enain3</obj_property>
+      <obj_property name="ObjectShortName">tx_enain3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_sopin0" type="logic">
+      <obj_property name="ElementShortName">tx_sopin0</obj_property>
+      <obj_property name="ObjectShortName">tx_sopin0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_sopin1" type="logic">
+      <obj_property name="ElementShortName">tx_sopin1</obj_property>
+      <obj_property name="ObjectShortName">tx_sopin1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_sopin2" type="logic">
+      <obj_property name="ElementShortName">tx_sopin2</obj_property>
+      <obj_property name="ObjectShortName">tx_sopin2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_sopin3" type="logic">
+      <obj_property name="ElementShortName">tx_sopin3</obj_property>
+      <obj_property name="ObjectShortName">tx_sopin3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_eopin0" type="logic">
+      <obj_property name="ElementShortName">tx_eopin0</obj_property>
+      <obj_property name="ObjectShortName">tx_eopin0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_eopin1" type="logic">
+      <obj_property name="ElementShortName">tx_eopin1</obj_property>
+      <obj_property name="ObjectShortName">tx_eopin1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_eopin2" type="logic">
+      <obj_property name="ElementShortName">tx_eopin2</obj_property>
+      <obj_property name="ObjectShortName">tx_eopin2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_eopin3" type="logic">
+      <obj_property name="ElementShortName">tx_eopin3</obj_property>
+      <obj_property name="ObjectShortName">tx_eopin3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_errin0" type="logic">
+      <obj_property name="ElementShortName">tx_errin0</obj_property>
+      <obj_property name="ObjectShortName">tx_errin0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_errin1" type="logic">
+      <obj_property name="ElementShortName">tx_errin1</obj_property>
+      <obj_property name="ObjectShortName">tx_errin1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_errin2" type="logic">
+      <obj_property name="ElementShortName">tx_errin2</obj_property>
+      <obj_property name="ObjectShortName">tx_errin2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_errin3" type="logic">
+      <obj_property name="ElementShortName">tx_errin3</obj_property>
+      <obj_property name="ObjectShortName">tx_errin3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_mtyin0" type="array">
+      <obj_property name="ElementShortName">tx_mtyin0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mtyin0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_mtyin1" type="array">
+      <obj_property name="ElementShortName">tx_mtyin1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mtyin1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_mtyin2" type="array">
+      <obj_property name="ElementShortName">tx_mtyin2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mtyin2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_mtyin3" type="array">
+      <obj_property name="ElementShortName">tx_mtyin3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mtyin3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_ovfout" type="logic">
+      <obj_property name="ElementShortName">tx_ovfout</obj_property>
+      <obj_property name="ObjectShortName">tx_ovfout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_master/DUT/inst/tx_unfout" type="logic">
+      <obj_property name="ElementShortName">tx_unfout</obj_property>
+      <obj_property name="ObjectShortName">tx_unfout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_ovfout" type="logic">
+      <obj_property name="ElementShortName">tx_ovfout</obj_property>
+      <obj_property name="ObjectShortName">tx_ovfout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cmac_usplus_0_exdes_tb/u_cmac_slave/DUT/inst/tx_unfout" type="logic">
+      <obj_property name="ElementShortName">tx_unfout</obj_property>
+      <obj_property name="ObjectShortName">tx_unfout</obj_property>
+   </wvobject>
+</wave_config>
